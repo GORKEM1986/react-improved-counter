@@ -1,0 +1,42 @@
+body {
+  background-color: gray;
+}
+
+.kutular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.kutu {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  color: white;
+  font-size: 60px;
+  line-height: 300px;
+  text-align: center;
+  margin-right: 20px;
+}
+.kutu1 {
+  background-color: rgb(150, 167, 106);
+}
+.kutu2 {
+  background-color: rgb(57, 73, 136);
+}
+.kutu3 {
+  background-color: rgb(186, 14, 48);
+}
+
+.butonlar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buton {
+  background-color: rgb(231, 229, 183);
+  color: rgb(181, 28, 28);
+  padding: 10px;
+  border-radius: 10%;
+}
